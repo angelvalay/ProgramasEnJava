@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Hotel 1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JTattoo-1.6.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
