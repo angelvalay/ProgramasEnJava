@@ -1,6 +1,6 @@
-package poo.poo_interfaces;
+package poo.interfaces;
 
-public abstract class EnEspanol implements Saludar{
+public abstract class EnEspanol implements Saludar, Xable {
     void preguntar(String pregunta){
         System.out.println(pregunta + "?");
     }

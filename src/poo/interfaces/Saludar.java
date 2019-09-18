@@ -1,4 +1,4 @@
-package poo.poo_interfaces;
+package poo.interfaces;
 
 public interface Saludar {
     void hola();

@@ -1,4 +1,4 @@
-package poo.poo_interfaces;
+package poo.interfaces;
 
 public class ComoQuiera extends EnEspanol{
     public void hola(){
@@ -6,5 +6,15 @@ public class ComoQuiera extends EnEspanol{
     }
     void preguntaBano(){
         preguntar("Donde esta el bano?");
+    }
+
+    @Override
+    public void funcion1() {
+
+    }
+
+    @Override
+    public void funcion2() {
+
     }
 }
