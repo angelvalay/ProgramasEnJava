@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pane maxHeight="325.0" maxWidth="552.0" minHeight="288.0" minWidth="471.0" prefHeight="288.0" prefWidth="471.0"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <Label id="lblResultado" fx:id="lblResultado" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="21.0"
+               layoutY="6.0" maxHeight="17.0" maxWidth="424.0" minHeight="17.0" minWidth="424.0" prefHeight="17.0"
+               prefWidth="424.0" text="1.12142" textAlignment="RIGHT">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label id="lblOperaciones" fx:id="lblOperaciones" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="23.0"
+               layoutY="32.0" prefHeight="35.0" prefWidth="424.0" text="Labelfsdfsd" textAlignment="RIGHT">
+            <font>
+                <Font name="System Bold" size="24.0"/>
+            </font>
+        </Label>
+        <Separator layoutX="10.0" layoutY="64.0" prefHeight="0.0" prefWidth="444.0"/>
+        <Button id="btn7" onAction="#onClickBtn7" layoutX="14.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="7" textAlignment="CENTER">
+            <font>
+                <Font size="14.0"/>
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+        <Button id="btn4" onAction="#onClickBtn4" layoutX="14.0" layoutY="127.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="4" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn8" onAction="#onClickBtn8" layoutX="66.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="8" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn9" onAction="#onClickBtn9" layoutX="119.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="9" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn5" onAction="#onClickBtn5" layoutX="66.0" layoutY="127.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="5" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn6" onAction="#onClickBtn6" layoutX="119.0" layoutY="127.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="6" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn1" onAction="#onClickBtn1" layoutX="14.0" layoutY="179.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="1" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn2" onAction="#onClickBtn2" layoutX="66.0" layoutY="179.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="2" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn3" onAction="#onClickBtn3" layoutX="119.0" layoutY="179.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="3" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btn0" onAction="#onClickBtn0" layoutX="14.0" layoutY="230.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="0" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnPunto" onAction="#onClickBtnPunto" layoutX="66.0" layoutY="230.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="." textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnDiv" onAction="#onClickBtnDividir" layoutX="188.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="/" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnMulti" onAction="#onClickBtnMulti" layoutX="188.0" layoutY="127.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="x" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnResta" onAction="#onClickBtnRestar" layoutX="188.0" layoutY="179.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="-" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnSuma" onAction="#onClickBtnSumar" layoutX="188.0" layoutY="230.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="+" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnIgual" onAction="#onClickBtnResul" layoutX="240.0" layoutY="230.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="=" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnVaciar" onAction="#onClickBtnBorrar" layoutX="240.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="DEL" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Button>
+        <Button id="btnSeno" onAction="#onClickBtnSen" layoutX="304.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="sen" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Button>
+        <Button id="btnLog" layoutX="304.0" layoutY="127.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0"
+                text="ln" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Button>
+        <Button id="btnPI" layoutX="304.0" layoutY="179.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0"
+                text="PI" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnParAbierto" onAction="#onClickBtnParentAbier" layoutX="304.0" layoutY="230.0"
+                mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="(" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnParCerrado" onAction="#onClickBtnParentCerr" layoutX="357.0" layoutY="230.0"
+                mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text=")" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnEuler" layoutX="357.0" layoutY="179.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0"
+                text="e" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnLog" layoutX="357.0" layoutY="127.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0"
+                text="log" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+        <Button id="btnCos" onAction="#onClickBtnCos" layoutX="357.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="cos" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+        <Button id="btnTan" onAction="#onClickBtnTan" layoutX="410.0" layoutY="74.0" mnemonicParsing="false"
+                prefHeight="45.0" prefWidth="45.0" text="tan" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+        <Button id="btnRaiz" layoutX="410.0" layoutY="127.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0"
+                text="√" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnPotencia" layoutX="410.0" layoutY="179.0" mnemonicParsing="false" prefHeight="45.0"
+                prefWidth="45.0" text="^" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnFactorial" layoutX="410.0" layoutY="230.0" mnemonicParsing="false" prefHeight="45.0"
+                prefWidth="45.0" text="!" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>
